@@ -46,11 +46,11 @@ public class YorumService
                 {
                     Yorum yorum = new Yorum
                     {
-                        ID = reader.GetInt32(0),
-                        KitapID = reader.GetInt32(1),
-                        KullaniciID = reader.GetInt32(2),
-                        YorumMetni = reader.GetString(3),
-                        Puan = reader.GetInt32(4)
+                        ID = Convert.ToInt64(reader["ID"].ToString()),
+                        KitapID = Convert.ToInt32(reader["KitapID"].ToString()),
+                        KullaniciID = Convert.ToInt32(reader["KullaniciID"].ToString()),
+                        YorumMetni = reader["YorumMetni"].ToString(),
+                        Puan = Convert.ToInt32(reader["Puan"].ToString())
                     };
                     yorumlar.Add(yorum);
                 }

@@ -79,7 +79,8 @@ namespace BookStore.Services
                             Baslik = reader["Baslik"].ToString(),
                             Yazar = reader["Yazar"].ToString(),
                             YayinYili = (int)reader["YayinYili"],
-                            Fiyat = (decimal)reader["Fiyat"]
+                            Fiyat = (decimal)reader["Fiyat"],
+                            OrtalamaPuan = Convert.ToDecimal(reader["OrtalamaPuan"].ToString())
                         };
 
                         kitaplar.Add(kitap);

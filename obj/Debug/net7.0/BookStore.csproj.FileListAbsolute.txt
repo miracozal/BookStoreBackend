@@ -44,3 +44,4 @@ C:\Users\mirac\Desktop\BookStore\BookStore\obj\Debug\net7.0\refint\BookStore.dll
 C:\Users\mirac\Desktop\BookStore\BookStore\obj\Debug\net7.0\BookStore.pdb
 C:\Users\mirac\Desktop\BookStore\BookStore\obj\Debug\net7.0\BookStore.genruntimeconfig.cache
 C:\Users\mirac\Desktop\BookStore\BookStore\obj\Debug\net7.0\ref\BookStore.dll
+C:\Users\mirac\Desktop\BookStore\BookStore\obj\Debug\net7.0\BookStore.sourcelink.json

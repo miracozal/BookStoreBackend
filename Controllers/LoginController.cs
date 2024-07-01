@@ -24,7 +24,7 @@ namespace BookStore.Controllers
             if (user != null)
             {
                 var token = LoginService.GenerateJwtToken(user, _jwtSettings);
-                return Ok(new { token });
+                return Ok(new { token, user.ID });
             }
             else
             {

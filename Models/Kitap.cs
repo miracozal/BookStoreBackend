@@ -10,5 +10,6 @@ namespace BookStore.Models
         public string Yazar { get; set; }
         public int YayinYili { get; set; }
         public decimal Fiyat { get; set; }
+        public decimal? OrtalamaPuan { get; set; }
     }
 }
